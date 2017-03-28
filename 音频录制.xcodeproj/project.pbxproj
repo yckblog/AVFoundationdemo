@@ -15,6 +15,8 @@
 		441AE3CF1E86AC7B002F1362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441AE3CD1E86AC7B002F1362 /* LaunchScreen.storyboard */; };
 		441AE3DA1E86AC7B002F1362 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441AE3D91E86AC7B002F1362 /* ____Tests.m */; };
 		441AE3E51E86AC7B002F1362 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441AE3E41E86AC7B002F1362 /* ____UITests.m */; };
+		44B28B3B1E86B6CF006FF79E /* YuyinzhuanhuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B28B3A1E86B6CF006FF79E /* YuyinzhuanhuanViewController.m */; };
+		44B28B3E1E86B7ED006FF79E /* YYSpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B28B3D1E86B7ED006FF79E /* YYSpeechController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		441AE3E01E86AC7B002F1362 /* 音频录制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频录制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441AE3E41E86AC7B002F1362 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		441AE3E61E86AC7B002F1362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B28B391E86B6CF006FF79E /* YuyinzhuanhuanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuyinzhuanhuanViewController.h; sourceTree = "<group>"; };
+		44B28B3A1E86B6CF006FF79E /* YuyinzhuanhuanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuyinzhuanhuanViewController.m; sourceTree = "<group>"; };
+		44B28B3C1E86B7ED006FF79E /* YYSpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpeechController.h; sourceTree = "<group>"; };
+		44B28B3D1E86B7ED006FF79E /* YYSpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpeechController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				441AE3C31E86AC7B002F1362 /* AppDelegate.m */,
 				441AE3C51E86AC7B002F1362 /* ViewController.h */,
 				441AE3C61E86AC7B002F1362 /* ViewController.m */,
+				44B28B391E86B6CF006FF79E /* YuyinzhuanhuanViewController.h */,
+				44B28B3A1E86B6CF006FF79E /* YuyinzhuanhuanViewController.m */,
+				44B28B3C1E86B7ED006FF79E /* YYSpeechController.h */,
+				44B28B3D1E86B7ED006FF79E /* YYSpeechController.m */,
 				441AE3C81E86AC7B002F1362 /* Main.storyboard */,
 				441AE3CB1E86AC7B002F1362 /* Assets.xcassets */,
 				441AE3CD1E86AC7B002F1362 /* LaunchScreen.storyboard */,
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B28B3B1E86B6CF006FF79E /* YuyinzhuanhuanViewController.m in Sources */,
 				441AE3C71E86AC7B002F1362 /* ViewController.m in Sources */,
 				441AE3C41E86AC7B002F1362 /* AppDelegate.m in Sources */,
+				44B28B3E1E86B7ED006FF79E /* YYSpeechController.m in Sources */,
 				441AE3C11E86AC7B002F1362 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +519,7 @@
 				441AE3EB1E86AC7B002F1362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		441AE3EC1E86AC7B002F1362 /* Build configuration list for PBXNativeTarget "音频录制Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				441AE3EE1E86AC7B002F1362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		441AE3EF1E86AC7B002F1362 /* Build configuration list for PBXNativeTarget "音频录制UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				441AE3F11E86AC7B002F1362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
